@@ -1,0 +1,13 @@
+
+spring:
+  application:
+    name: service-a-java8
+    
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_SERVICE_URL:http://eureka:8080/eureka/}
+  instance:
+    prefer-ip-address: true
+    metadataMap:
+      instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
