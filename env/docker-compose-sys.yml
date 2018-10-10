@@ -31,9 +31,7 @@ services:
       - dev-net
 
   visualizer:
-    image: dockersamples/visualizer:stable
-    ports:
-      - "9999:8080"
+    image: dockersamples/visualizer
     stop_grace_period: 1m30s
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock"
