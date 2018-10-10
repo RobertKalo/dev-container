@@ -92,7 +92,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<repository>loxon/meetup-devops-service-java8-b</repository>
+					<repository>loxonsolutions/meetup-devops-service-java8-b</repository>
 					<tag>latest</tag> <!-- ${project.version} -->
 					<serverId>docker-hub</serverId>
 					<registryUrl>https://index.docker.io/v1/</registryUrl>

@@ -1,0 +1,10 @@
+{
+  "/api-node/*": {
+    "target": "http://node:8080",
+    "secure": false
+  },
+  "/api/*": {
+    "target": "http://zuul:8080",
+    "secure": false
+  }
+}

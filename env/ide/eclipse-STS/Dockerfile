@@ -1,4 +1,4 @@
-FROM loxon/meetup-gui-base:ubuntu-18.04
+FROM loxonsolutions/meetup-gui-base:ubuntu-18.04
 
 # Install OS dependencies
 RUN apt-get update && \

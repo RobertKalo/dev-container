@@ -7,7 +7,7 @@ docker create \
     --name eureka \
     --network dev-net \
     --rm \
-    loxon/meetup-devops-eureka:latest
+    loxonsolutions/meetup-devops-eureka:latest
 
 docker start eureka 
 ```

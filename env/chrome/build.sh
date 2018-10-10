@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker build -t loxon/meetup-gui-chrome:latest .
-docker push loxon/meetup-gui-chrome:latest
+docker build -t loxonsolutions/meetup-gui-chrome:latest .
+docker push loxonsolutions/meetup-gui-chrome:latest

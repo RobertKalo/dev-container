@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker build -t loxon/meetup-gui-vcode:latest .
-docker push loxon/meetup-gui-vcode:latest
+docker build -t loxonsolutions/meetup-gui-vcode:latest .
+docker push loxonsolutions/meetup-gui-vcode:latest
