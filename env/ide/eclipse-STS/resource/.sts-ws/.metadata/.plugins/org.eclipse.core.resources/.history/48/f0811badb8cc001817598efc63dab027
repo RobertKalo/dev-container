@@ -1,0 +1,5 @@
+package eu.loxon.servicejava8a.dto;
+
+public class HelloResponse {
+
+}

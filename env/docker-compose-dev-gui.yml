@@ -1,0 +1,54 @@
+version: "3.6"
+services:
+
+  sts4:
+    image: loxonsolutions/meetup-gui-sts:4
+    environment: 
+      - DISPLAY=$DISPLAY
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - "/tmp/.X11-unix:/tmp/.X11-unix"
+      - "$HOME/workspace:/home/developer/workspace"
+      - "$HOME/workspace/meetup/.m2:/home/developer/.m2"
+      - "$HOME/.docker:/home/developer/.docker"
+    deploy:
+      placement:
+        constraints: [node.role == manager]
+    networks:
+      - dev-net
+
+  firefox:
+    image: loxonsolutions/meetup-gui-firefox:latest
+    environment: 
+      - DISPLAY=$DISPLAY
+    volumes:
+      - "/tmp/.X11-unix:/tmp/.X11-unix"
+    deploy:
+      placement:
+        constraints: [node.role == manager]
+    networks:
+      - dev-net
+
+  angular:
+    image: loxonsolutions/meetup-node-runtime:latest
+    volumes:
+      - "$HOME/workspace/meetup/dev-container/app1/angular/webapp:/tmp/code"
+    deploy:
+      placement:
+        constraints: [node.role == manager]
+    networks:
+      - dev-net
+
+  node:
+    image: loxonsolutions/meetup-node-runtime:latest
+    volumes:
+      - "$HOME/workspace/meetup/dev-container/app1/service-node-c:/tmp/code"
+    deploy:
+      placement:
+        constraints: [node.role == manager]
+    networks:
+      - dev-net
+
+networks:
+  dev-net:
+    external: true

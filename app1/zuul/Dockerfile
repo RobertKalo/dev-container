@@ -1,0 +1,11 @@
+FROM openjdk:8-jre-alpine
+
+ARG JAR_FILE
+
+ENV JAVA_OPTS="-Xms128m"
+ENV START_DELAY=1
+CMD sleep $START_DELAY && java -Djava.security.egd=file:/dev/./urandom -Duser.timezone=GMT ${JAVA_OPTS} -jar /app.jar
+
+EXPOSE 8080
+
+ADD target/${JAR_FILE} /app.jar

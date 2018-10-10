@@ -2576,3 +2576,1342 @@ configserver dataflow eureka h2 hystrixdashboard kafka stubrunner zipkin
 
 !ENTRY org.eclipse.ui 2 2 2018-10-10 14:23:11.258
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.ui.projectPropertyPage (bundle: org.springframework.ide.eclipse.boot.validation, propertyPage: org.springframework.ide.eclipse.boot.validation.preferences.BootValidationProjectPropertyPage)
+!SESSION 2018-10-10 15:23:01.269 -----------------------------------------------
+eclipse.buildId=4.0.0.201809220817-RELEASE
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2018-10-10 15:23:09.286
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-10-10 15:23:09.286
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1e4a4ed5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5644f664,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:23:13.671
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:23:17.456
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.wUqHfSRl
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:23:17.485
+!MESSAGE subscribing to classpath changes: sts4.classpath.wUqHfSRl
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:23:17.553
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:23:17.558
+!MESSAGE subsribers = [sts4.classpath.wUqHfSRl]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:23:17.559
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:23:17.589
+!MESSAGE project service-java8-a ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:23:17.590
+!MESSAGE project service-java8-b ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:23:17.590
+!MESSAGE project eureka ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:23:17.590
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:23:17.591
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.wUqHfSRl => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:23:17.591
+!MESSAGE Preparing classpath changed notification service-java8-a
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:23:17.592
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:23:17.606
+!MESSAGE classpath=153 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:23:17.607
+!MESSAGE executing callback sts4.classpath.wUqHfSRl service-java8-a false 153
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:23:19.276
+!MESSAGE executing callback sts4.classpath.wUqHfSRl SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:23:19.279
+!MESSAGE Preparing classpath changed notification eureka
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:23:19.279
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:23:19.283
+!MESSAGE classpath=151 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:23:19.284
+!MESSAGE executing callback sts4.classpath.wUqHfSRl eureka false 151
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:23:19.438
+!MESSAGE executing callback sts4.classpath.wUqHfSRl SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:23:19.449
+!MESSAGE Preparing classpath changed notification service-java8-b
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:23:19.450
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:23:19.453
+!MESSAGE classpath=120 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:23:19.453
+!MESSAGE executing callback sts4.classpath.wUqHfSRl service-java8-b false 120
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:23:21.470
+!MESSAGE executing callback sts4.classpath.wUqHfSRl FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2018-10-10 15:23:21.471
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1886)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:179)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:23:26.034
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	eureka[*]: {CONTENT}
+		ResourceDelta(/eureka/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:23:28.731
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CONTENT}
+		ResourceDelta(/service-java8-b/target)[*]]
+
+!ENTRY Activator 2 0 2018-10-10 15:23:32.157
+!MESSAGE List services command output has more than one line:
+ WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.springframework.cglib.core.ReflectUtils$1 (file:/home/developer/.m2/repository/org/springframework/spring-core/5.0.8.RELEASE/spring-core-5.0.8.RELEASE.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.springframework.cglib.core.ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+configserver dataflow eureka h2 hystrixdashboard kafka stubrunner zipkin
+
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:23:34.379
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-a[*]: {CONTENT}
+		ResourceDelta(/service-java8-a/target)[*]]
+
+!ENTRY org.eclipse.ui 2 2 2018-10-10 15:28:49.959
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.ui.projectPropertyPage (bundle: org.springframework.ide.eclipse.boot.validation, propertyPage: org.springframework.ide.eclipse.boot.validation.preferences.BootValidationProjectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:29:15.733
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CONTENT}
+	ResourceDelta(/zuul)[+]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:29:18.802
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN | CONTENT}
+	zuul[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN | CONTENT}
+			eu[*]: {CONTENT}
+			eu.loxon[*]: {CONTENT}
+			eu.loxon.zuul[*]: {CHILDREN | CONTENT}
+				ZuulApplication.java[*]: {CONTENT | PRIMARY RESOURCE}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/zuul/src/main/resources/application.properties)[*]
+		src/test/java[*]: {CHILDREN | CONTENT}
+			eu[*]: {CONTENT}
+			eu.loxon[*]: {CONTENT}
+			eu.loxon.zuul[*]: {CHILDREN | CONTENT}
+				ZuulApplicationTests.java[*]: {CONTENT | PRIMARY RESOURCE}
+		ResourceDelta(/zuul/.classpath)[+]
+		ResourceDelta(/zuul/.gitignore)[*]
+		ResourceDelta(/zuul/.mvn)[*]
+		ResourceDelta(/zuul/.project)[*]
+		ResourceDelta(/zuul/.settings)[*]
+		ResourceDelta(/zuul/mvnw)[*]
+		ResourceDelta(/zuul/mvnw.cmd)[*]
+		ResourceDelta(/zuul/pom.xml)[*]
+		ResourceDelta(/zuul/src)[*]
+		ResourceDelta(/zuul/target)[+]
+	ResourceDelta(/zuul)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:29:19.827
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul[*]: {CONTENT}
+		ResourceDelta(/zuul/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:29:21.881
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul[*]: {CHILDREN | RESOLVED CLASSPATH CHANGED}
+		/home/developer/.m2/repository/org/springframework/cloud/spring-cloud-starter-netflix-zuul/2.0.1.RELEASE/spring-cloud-starter-netflix-zuul-2.0.1.RELEASE.jar[+]: {}
+		/home/developer/.m2/repository/org/springframework/cloud/spring-cloud-netflix-zuul/2.0.1.RELEASE/spring-cloud-netflix-zuul-2.0.1.RELEASE.jar[+]: {}
+		/home/developer/.m2/repository/org/springframework/cloud/spring-cloud-starter-netflix-hystrix/2.0.1.RELEASE/spring-cloud-starter-netflix-hystrix-2.0.1.RELEASE.jar[+]: {}
+		/home/developer/.m2/repository/com/netflix/hystrix/hystrix-serialization/1.5.12/hystrix-serialization-1.5.12.jar[+]: {}
+		/home/developer/.m2/repository/com/fasterxml/jackson/module/jackson-module-afterburner/2.9.6/jackson-module-afterburner-2.9.6.jar[+]: {}
+		/home/developer/.m2/repository/com/netflix/hystrix/hystrix-metrics-event-stream/1.5.12/hystrix-metrics-event-stream-1.5.12.jar[+]: {}
+		/home/developer/.m2/repository/com/netflix/hystrix/hystrix-javanica/1.5.12/hystrix-javanica-1.5.12.jar[+]: {}
+		/home/developer/.m2/repository/com/google/guava/guava/15.0/guava-15.0.jar[+]: {}
+		/home/developer/.m2/repository/io/reactivex/rxjava-reactive-streams/1.2.1/rxjava-reactive-streams-1.2.1.jar[+]: {}
+		/home/developer/.m2/repository/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.jar[+]: {}
+		/home/developer/.m2/repository/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1.jar[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:29:21.882
+!MESSAGE Preparing classpath changed notification zuul
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:29:21.883
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:29:21.887
+!MESSAGE classpath=128 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:29:21.888
+!MESSAGE executing callback sts4.classpath.wUqHfSRl zuul false 128
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:29:21.895
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul[*]: {CONTENT}
+		ResourceDelta(/zuul/.settings)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:29:21.925
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul[*]: {CONTENT}
+		ResourceDelta(/zuul/.project)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:29:21.934
+!MESSAGE executing callback sts4.classpath.wUqHfSRl SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:29:29.360
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			eu.loxon.zuul[*]: {CHILDREN}
+				[Working copy] ZuulApplication.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:30:20.399
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=[Working copy] ZuulApplication.java[*]: {CHILDREN | FINE GRAINED}
+	ZuulApplication[*]: {ANNOTATIONS}
+		@EnableZuulProxy[+]: {}
+		@EnableCircuitBreaker[+]: {}
+		@EnableDiscoveryClient[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:30:20.416
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			eu.loxon.zuul[*]: {CHILDREN}
+				[Working copy] ZuulApplication.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/zuul/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:30:20.709
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul[*]: {CONTENT}
+		ResourceDelta(/zuul/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:30:46.131
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/zuul/src/main/resources/application.yml)[+]
+		ResourceDelta(/zuul/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:30:46.352
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul[*]: {CONTENT}
+		ResourceDelta(/zuul/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:30:50.168
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/zuul/src/main/resources/application.properties)[-]
+		ResourceDelta(/zuul/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:30:50.317
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul[*]: {CONTENT}
+		ResourceDelta(/zuul/target)[*]]
+
+!ENTRY org.eclipse.lsp4e 4 0 2018-10-10 15:30:54.611
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1886)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverRegion(LSBasedHover.java:260)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:142)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1134)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:212)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5797)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1374)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5051)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4583)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+
+!ENTRY org.eclipse.lsp4e 4 0 2018-10-10 15:30:55.146
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1886)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:168)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverInfo2(CompositeTextHover.java:60)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:30:59.402
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/zuul/src/main/resources/application.yml)[*]
+		ResourceDelta(/zuul/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:30:59.535
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul[*]: {CONTENT}
+		ResourceDelta(/zuul/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:32:01.280
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/zuul/src/main/resources/application.yml)[*]
+		ResourceDelta(/zuul/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:32:01.908
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul[*]: {CONTENT}
+		ResourceDelta(/zuul/target)[*]]
+
+!ENTRY Activator 4 0 2018-10-10 15:32:12.549
+!MESSAGE CoreException: No ContentProposalProviderFactory found. Using a dummy factory. Content assist proposals in Boot Launch Conf editor won't be available!
+!STACK 1
+org.eclipse.core.runtime.CoreException: No ContentProposalProviderFactory found. Using a dummy factory. Content assist proposals in Boot Launch Conf editor won't be available!
+	at org.springsource.ide.eclipse.commons.livexp.util.ExceptionUtil.coreException(ExceptionUtil.java:41)
+	at org.springsource.ide.eclipse.commons.livexp.util.ExceptionUtil.coreException(ExceptionUtil.java:32)
+	at org.springsource.ide.eclipse.commons.livexp.util.ExceptionUtil.coreException(ExceptionUtil.java:50)
+	at org.springframework.ide.eclipse.boot.util.Log.error(Log.java:60)
+	at org.springframework.ide.eclipse.boot.launch.properties.ProposalExtensionPoint.load(ProposalExtensionPoint.java:55)
+	at org.springframework.ide.eclipse.boot.launch.properties.ProposalExtensionPoint.getFactory(ProposalExtensionPoint.java:36)
+	at org.springframework.ide.eclipse.boot.launch.properties.ProposalExtensionPoint.create(ProposalExtensionPoint.java:31)
+	at org.springframework.ide.eclipse.boot.launch.properties.PropertiesTableSection$CellEditorSupport.<init>(PropertiesTableSection.java:82)
+	at org.springframework.ide.eclipse.boot.launch.properties.PropertiesTableSection.createColumns(PropertiesTableSection.java:295)
+	at org.springframework.ide.eclipse.boot.launch.properties.PropertiesTableSection.createContents(PropertiesTableSection.java:194)
+	at org.springframework.ide.eclipse.boot.launch.util.LaunchConfigurationTabWithSections.createControl(LaunchConfigurationTabWithSections.java:56)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.showInstanceTabsFor(LaunchConfigurationTabGroupViewer.java:928)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.displayInstanceTabs(LaunchConfigurationTabGroupViewer.java:853)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.lambda$4(LaunchConfigurationTabGroupViewer.java:736)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.inputChanged(LaunchConfigurationTabGroupViewer.java:751)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.setInput0(LaunchConfigurationTabGroupViewer.java:683)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.setInput(LaunchConfigurationTabGroupViewer.java:663)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.handleLaunchConfigurationSelectionChanged(LaunchConfigurationsDialog.java:1050)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog$4.selectionChanged(LaunchConfigurationsDialog.java:617)
+	at org.eclipse.jface.viewers.StructuredViewer$3.run(StructuredViewer.java:874)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:176)
+	at org.eclipse.jface.viewers.StructuredViewer.firePostSelectionChanged(StructuredViewer.java:871)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(StructuredViewer.java:1720)
+	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:1084)
+	at org.eclipse.jface.viewers.Viewer.setSelection(Viewer.java:383)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.doInitialTreeSelection(LaunchConfigurationsDialog.java:662)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.initializeContent(LaunchConfigurationsDialog.java:1186)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.createContents(LaunchConfigurationsDialog.java:473)
+	at org.eclipse.jface.window.Window.create(Window.java:429)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1099)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.create(LaunchConfigurationsDialog.java:378)
+	at org.eclipse.jface.window.Window.open(Window.java:786)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.open(LaunchConfigurationsDialog.java:1239)
+	at org.eclipse.debug.ui.DebugUITools.lambda$1(DebugUITools.java:630)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:636)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:574)
+	at org.eclipse.debug.ui.actions.OpenLaunchDialogAction.run(OpenLaunchDialogAction.java:85)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:476)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:400)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5797)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1374)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:5051)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4583)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+!SUBENTRY 1 Activator 4 0 2018-10-10 15:32:12.550
+!MESSAGE No ContentProposalProviderFactory found. Using a dummy factory. Content assist proposals in Boot Launch Conf editor won't be available!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:32:37.366
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	eureka[*]: {CONTENT}
+		ResourceDelta(/eureka/target/docker)[-]
+		ResourceDelta(/eureka/target/eureka-0.0.1-SNAPSHOT-docker-info.jar)[-]
+		ResourceDelta(/eureka/target/eureka-0.0.1-SNAPSHOT.jar)[*]
+		ResourceDelta(/eureka/target/eureka-0.0.1-SNAPSHOT.jar.original)[*]
+		ResourceDelta(/eureka/target/maven-archiver)[*]
+		ResourceDelta(/eureka/target/maven-status)[*]
+		ResourceDelta(/eureka/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:32:37.763
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	eureka[*]: {CONTENT}
+		ResourceDelta(/eureka/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:33:09.442
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	eureka[*]: {CONTENT}
+		ResourceDelta(/eureka/target/docker)[+]
+		ResourceDelta(/eureka/target/eureka-0.0.1-SNAPSHOT-docker-info.jar)[+]
+		ResourceDelta(/eureka/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:33:33.618
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CONTENT}
+		ResourceDelta(/service-java8-b/target/docker)[-]
+		ResourceDelta(/service-java8-b/target/maven-archiver)[-]
+		ResourceDelta(/service-java8-b/target/maven-status)[*]
+		ResourceDelta(/service-java8-b/target/service-java8-b-0.0.1-SNAPSHOT)[-]
+		ResourceDelta(/service-java8-b/target/service-java8-b-0.0.1-SNAPSHOT-docker-info.jar)[-]
+		ResourceDelta(/service-java8-b/target/service-java8-b-0.0.1-SNAPSHOT.war)[-]
+		ResourceDelta(/service-java8-b/target/service-java8-b-0.0.1-SNAPSHOT.war.original)[-]
+		ResourceDelta(/service-java8-b/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:33:33.820
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CONTENT}
+		ResourceDelta(/service-java8-b/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:33:41.647
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CONTENT}
+		ResourceDelta(/service-java8-b/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:34:45.859
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CONTENT}
+		ResourceDelta(/service-java8-b/target/docker)[+]
+		ResourceDelta(/service-java8-b/target/service-java8-b-0.0.1-SNAPSHOT-docker-info.jar)[+]
+		ResourceDelta(/service-java8-b/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:35:39.653
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul[*]: {CONTENT}
+		ResourceDelta(/zuul/Dockerfile)[+]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:36:21.169
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul[*]: {CONTENT}
+		ResourceDelta(/zuul/pom.xml)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:36:22.192
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul[*]: {CONTENT}
+		ResourceDelta(/zuul/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:37:42.820
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul[*]: {CHILDREN | CONTENT}
+		target/generated-sources/annotations[+]: {}
+		ResourceDelta(/zuul/target/generated-sources)[+]
+		ResourceDelta(/zuul/target/maven-archiver)[+]
+		ResourceDelta(/zuul/target/maven-status)[+]
+		ResourceDelta(/zuul/target/zuul-0.0.1-SNAPSHOT.jar)[+]
+		ResourceDelta(/zuul/target/zuul-0.0.1-SNAPSHOT.jar.original)[+]
+		ResourceDelta(/zuul/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:37:44.130
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul[*]: {CONTENT}
+		ResourceDelta(/zuul/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:37:50.938
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul[*]: {CONTENT}
+		ResourceDelta(/zuul/target/docker)[+]
+		ResourceDelta(/zuul/target/zuul-0.0.1-SNAPSHOT-docker-info.jar)[+]
+		ResourceDelta(/zuul/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:38:31.094
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CONTENT}
+		ResourceDelta(/service-java8-b/target/docker)[-]
+		ResourceDelta(/service-java8-b/target/maven-archiver)[*]
+		ResourceDelta(/service-java8-b/target/maven-status)[*]
+		ResourceDelta(/service-java8-b/target/service-java8-b-0.0.1-SNAPSHOT)[*]
+		ResourceDelta(/service-java8-b/target/service-java8-b-0.0.1-SNAPSHOT-docker-info.jar)[-]
+		ResourceDelta(/service-java8-b/target/service-java8-b-0.0.1-SNAPSHOT.war)[*]
+		ResourceDelta(/service-java8-b/target/service-java8-b-0.0.1-SNAPSHOT.war.original)[*]
+		ResourceDelta(/service-java8-b/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:38:31.291
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CONTENT}
+		ResourceDelta(/service-java8-b/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:38:47.264
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CONTENT}
+		ResourceDelta(/service-java8-b/target/docker)[+]
+		ResourceDelta(/service-java8-b/target/service-java8-b-0.0.1-SNAPSHOT-docker-info.jar)[+]
+		ResourceDelta(/service-java8-b/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:43:12.881
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-a[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			eu.loxon.servicejava8a.controller[*]: {CHILDREN}
+				[Working copy] HelloAController.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/service-java8-a/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:43:13.120
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-a[*]: {CONTENT}
+		ResourceDelta(/service-java8-a/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:43:18.540
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			eu.loxon.servicejava8b.controller[*]: {CHILDREN}
+				[Working copy] HelloBController.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:43:24.934
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			eu.loxon.servicejava8b.controller[*]: {CHILDREN}
+				[Working copy] HelloBController.java[*]: {CHILDREN | FINE GRAINED | PRIMARY RESOURCE}
+					HelloBController[*]: {CHILDREN | FINE GRAINED}
+						hello()[*]: {ANNOTATIONS}
+							@GetMapping[*]: {CONTENT}
+		ResourceDelta(/service-java8-b/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:43:25.966
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CONTENT}
+		ResourceDelta(/service-java8-b/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:43:44.803
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CONTENT}
+		ResourceDelta(/service-java8-b/target/docker)[-]
+		ResourceDelta(/service-java8-b/target/maven-archiver)[*]
+		ResourceDelta(/service-java8-b/target/maven-status)[*]
+		ResourceDelta(/service-java8-b/target/service-java8-b-0.0.1-SNAPSHOT)[*]
+		ResourceDelta(/service-java8-b/target/service-java8-b-0.0.1-SNAPSHOT-docker-info.jar)[-]
+		ResourceDelta(/service-java8-b/target/service-java8-b-0.0.1-SNAPSHOT.war)[*]
+		ResourceDelta(/service-java8-b/target/service-java8-b-0.0.1-SNAPSHOT.war.original)[*]
+		ResourceDelta(/service-java8-b/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:43:44.969
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CONTENT}
+		ResourceDelta(/service-java8-b/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:44:00.872
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CONTENT}
+		ResourceDelta(/service-java8-b/target/docker)[+]
+		ResourceDelta(/service-java8-b/target/service-java8-b-0.0.1-SNAPSHOT-docker-info.jar)[+]
+		ResourceDelta(/service-java8-b/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:48:00.635
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-a[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			eu.loxon.servicejava8a.controller[*]: {CHILDREN}
+				[Working copy] HelloAController.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/service-java8-a/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:48:01.432
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-a[*]: {CONTENT}
+		ResourceDelta(/service-java8-a/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:51:07.009
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul[*]: {CONTENT}
+		ResourceDelta(/zuul/pom.xml)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:51:08.257
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul[*]: {CHILDREN | CONTENT | RESOLVED CLASSPATH CHANGED}
+		/home/developer/.m2/repository/org/springframework/cloud/spring-cloud-netflix-core/2.0.1.RELEASE/spring-cloud-netflix-core-2.0.1.RELEASE.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/springframework/boot/spring-boot-starter-aop/2.0.5.RELEASE/spring-boot-starter-aop-2.0.5.RELEASE.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/com/netflix/netflix-commons/netflix-commons-util/0.3.0/netflix-commons-util-0.3.0.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/springframework/cloud/spring-cloud-starter/2.0.1.RELEASE/spring-cloud-starter-2.0.1.RELEASE.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/springframework/cloud/spring-cloud-context/2.0.1.RELEASE/spring-cloud-context-2.0.1.RELEASE.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/springframework/security/spring-security-crypto/5.0.8.RELEASE/spring-security-crypto-5.0.8.RELEASE.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/springframework/cloud/spring-cloud-commons/2.0.1.RELEASE/spring-cloud-commons-2.0.1.RELEASE.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/springframework/security/spring-security-rsa/1.0.5.RELEASE/spring-security-rsa-1.0.5.RELEASE.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.56/bcpkix-jdk15on-1.56.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.56/bcprov-jdk15on-1.56.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.0.5.RELEASE/spring-boot-starter-web-2.0.5.RELEASE.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.0.5.RELEASE/spring-boot-starter-json-2.0.5.RELEASE.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.6/jackson-databind-2.9.6.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.9.6/jackson-datatype-jdk8-2.9.6.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.9.6/jackson-datatype-jsr310-2.9.6.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.9.6/jackson-module-parameter-names-2.9.6.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.0.5.RELEASE/spring-boot-starter-tomcat-2.0.5.RELEASE.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.34/tomcat-embed-core-8.5.34.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/8.5.34/tomcat-embed-el-8.5.34.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.34/tomcat-embed-websocket-8.5.34.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/hibernate/validator/hibernate-validator/6.0.12.Final/hibernate-validator-6.0.12.Final.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/com/fasterxml/classmate/1.3.4/classmate-1.3.4.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/springframework/spring-webmvc/5.0.9.RELEASE/spring-webmvc-5.0.9.RELEASE.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/springframework/spring-aop/5.0.9.RELEASE/spring-aop-5.0.9.RELEASE.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/springframework/spring-context/5.0.9.RELEASE/spring-context-5.0.9.RELEASE.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/springframework/spring-expression/5.0.9.RELEASE/spring-expression-5.0.9.RELEASE.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/springframework/boot/spring-boot-starter-actuator/2.0.5.RELEASE/spring-boot-starter-actuator-2.0.5.RELEASE.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/springframework/boot/spring-boot-actuator-autoconfigure/2.0.5.RELEASE/spring-boot-actuator-autoconfigure-2.0.5.RELEASE.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/springframework/boot/spring-boot-actuator/2.0.5.RELEASE/spring-boot-actuator-2.0.5.RELEASE.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/io/micrometer/micrometer-core/1.0.6/micrometer-core-1.0.6.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.10/HdrHistogram-2.1.10.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/springframework/cloud/spring-cloud-starter-netflix-hystrix/2.0.1.RELEASE/spring-cloud-starter-netflix-hystrix-2.0.1.RELEASE.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/springframework/cloud/spring-cloud-netflix-ribbon/2.0.1.RELEASE/spring-cloud-netflix-ribbon-2.0.1.RELEASE.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/com/netflix/hystrix/hystrix-core/1.5.12/hystrix-core-1.5.12.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/com/netflix/hystrix/hystrix-serialization/1.5.12/hystrix-serialization-1.5.12.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/com/fasterxml/jackson/module/jackson-module-afterburner/2.9.6/jackson-module-afterburner-2.9.6.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.6/jackson-core-2.9.6.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/com/netflix/hystrix/hystrix-metrics-event-stream/1.5.12/hystrix-metrics-event-stream-1.5.12.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/com/netflix/hystrix/hystrix-javanica/1.5.12/hystrix-javanica-1.5.12.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/aspectj/aspectjweaver/1.8.13/aspectjweaver-1.8.13.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/com/google/guava/guava/15.0/guava-15.0.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/io/reactivex/rxjava-reactive-streams/1.2.1/rxjava-reactive-streams-1.2.1.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/2.0.1.RELEASE/spring-cloud-starter-netflix-ribbon-2.0.1.RELEASE.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/com/netflix/ribbon/ribbon/2.2.5/ribbon-2.2.5.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/com/netflix/ribbon/ribbon-transport/2.2.5/ribbon-transport-2.2.5.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/io/reactivex/rxnetty-contexts/0.4.9/rxnetty-contexts-0.4.9.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/io/reactivex/rxnetty-servo/0.4.9/rxnetty-servo-0.4.9.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/io/reactivex/rxnetty/0.4.9/rxnetty-0.4.9.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/io/netty/netty-codec-http/4.1.29.Final/netty-codec-http-4.1.29.Final.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/io/netty/netty-codec/4.1.29.Final/netty-codec-4.1.29.Final.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/io/netty/netty-transport-native-epoll/4.1.29.Final/netty-transport-native-epoll-4.1.29.Final.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/io/netty/netty-common/4.1.29.Final/netty-common-4.1.29.Final.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/io/netty/netty-buffer/4.1.29.Final/netty-buffer-4.1.29.Final.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.29.Final/netty-transport-native-unix-common-4.1.29.Final.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/io/netty/netty-transport/4.1.29.Final/netty-transport-4.1.29.Final.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/io/netty/netty-resolver/4.1.29.Final/netty-resolver-4.1.29.Final.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/com/netflix/ribbon/ribbon-core/2.2.5/ribbon-core-2.2.5.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/com/netflix/ribbon/ribbon-httpclient/2.2.5/ribbon-httpclient-2.2.5.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/com/sun/jersey/jersey-client/1.19.1/jersey-client-1.19.1.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/com/sun/jersey/jersey-core/1.19.1/jersey-core-1.19.1.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/com/sun/jersey/contribs/jersey-apache-client4/1.19.1/jersey-apache-client4-1.19.1.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/com/netflix/netflix-commons/netflix-statistics/0.1.1/netflix-statistics-0.1.1.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/io/reactivex/rxjava/1.3.8/rxjava-1.3.8.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/springframework/cloud/spring-cloud-starter-netflix-archaius/2.0.1.RELEASE/spring-cloud-starter-netflix-archaius-2.0.1.RELEASE.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/springframework/cloud/spring-cloud-netflix-archaius/2.0.1.RELEASE/spring-cloud-netflix-archaius-2.0.1.RELEASE.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/com/netflix/archaius/archaius-core/0.7.6/archaius-core-0.7.6.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/commons-configuration/commons-configuration/1.8/commons-configuration-1.8.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/com/netflix/servo/servo-core/0.12.21/servo-core-0.12.21.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/springframework/boot/spring-boot-starter-test/2.0.5.RELEASE/spring-boot-starter-test-2.0.5.RELEASE.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/springframework/boot/spring-boot-starter/2.0.5.RELEASE/spring-boot-starter-2.0.5.RELEASE.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/springframework/boot/spring-boot/2.0.5.RELEASE/spring-boot-2.0.5.RELEASE.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.0.5.RELEASE/spring-boot-autoconfigure-2.0.5.RELEASE.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.0.5.RELEASE/spring-boot-starter-logging-2.0.5.RELEASE.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.10.0/log4j-to-slf4j-2.10.0.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/springframework/boot/spring-boot-test/2.0.5.RELEASE/spring-boot-test-2.0.5.RELEASE.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/2.0.5.RELEASE/spring-boot-test-autoconfigure-2.0.5.RELEASE.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/net/minidev/json-smart/2.3/json-smart-2.3.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/junit/junit/4.12/junit-4.12.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/assertj/assertj-core/3.9.1/assertj-core-3.9.1.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/mockito/mockito-core/2.15.0/mockito-core-2.15.0.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/net/bytebuddy/byte-buddy/1.7.11/byte-buddy-1.7.11.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/net/bytebuddy/byte-buddy-agent/1.7.11/byte-buddy-agent-1.7.11.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/springframework/spring-core/5.0.9.RELEASE/spring-core-5.0.9.RELEASE.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/springframework/spring-jcl/5.0.9.RELEASE/spring-jcl-5.0.9.RELEASE.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/springframework/spring-test/5.0.9.RELEASE/spring-test-5.0.9.RELEASE.jar[*]: {REORDERED}
+		/home/developer/.m2/repository/org/xmlunit/xmlunit-core/2.5.1/xmlunit-core-2.5.1.jar[*]: {REORDERED}
+		target/generated-sources/annotations[*]: {REORDERED}
+		/home/developer/.m2/repository/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/2.0.1.RELEASE/spring-cloud-starter-netflix-eureka-client-2.0.1.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		/home/developer/.m2/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.0.1.RELEASE/spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		/home/developer/.m2/repository/com/netflix/eureka/eureka-client/1.9.3/eureka-client-1.9.3.jar[*]: {ADDED TO CLASSPATH}
+		/home/developer/.m2/repository/org/codehaus/jettison/jettison/1.3.7/jettison-1.3.7.jar[*]: {ADDED TO CLASSPATH}
+		/home/developer/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar[*]: {ADDED TO CLASSPATH}
+		/home/developer/.m2/repository/com/netflix/netflix-commons/netflix-eventbus/0.3.0/netflix-eventbus-0.3.0.jar[*]: {ADDED TO CLASSPATH}
+		/home/developer/.m2/repository/com/netflix/netflix-commons/netflix-infix/0.3.0/netflix-infix-0.3.0.jar[*]: {ADDED TO CLASSPATH}
+		/home/developer/.m2/repository/commons-jxpath/commons-jxpath/1.3/commons-jxpath-1.3.jar[*]: {ADDED TO CLASSPATH}
+		/home/developer/.m2/repository/joda-time/joda-time/2.9.9/joda-time-2.9.9.jar[*]: {ADDED TO CLASSPATH}
+		/home/developer/.m2/repository/org/antlr/antlr-runtime/3.4/antlr-runtime-3.4.jar[*]: {ADDED TO CLASSPATH}
+		/home/developer/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar[*]: {ADDED TO CLASSPATH}
+		/home/developer/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar[*]: {ADDED TO CLASSPATH}
+		/home/developer/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar[*]: {ADDED TO CLASSPATH}
+		/home/developer/.m2/repository/org/apache/commons/commons-math/2.2/commons-math-2.2.jar[*]: {ADDED TO CLASSPATH}
+		/home/developer/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0.jar[*]: {ADDED TO CLASSPATH}
+		/home/developer/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar[*]: {ADDED TO CLASSPATH}
+		/home/developer/.m2/repository/com/github/vlsi/compactmap/compactmap/1.2.1/compactmap-1.2.1.jar[*]: {ADDED TO CLASSPATH}
+		/home/developer/.m2/repository/com/github/andrewoma/dexx/dexx-collections/0.2/dexx-collections-0.2.jar[*]: {ADDED TO CLASSPATH}
+		/home/developer/.m2/repository/com/netflix/eureka/eureka-core/1.9.3/eureka-core-1.9.3.jar[*]: {ADDED TO CLASSPATH}
+		/home/developer/.m2/repository/org/codehaus/woodstox/woodstox-core-asl/4.4.1/woodstox-core-asl-4.4.1.jar[*]: {ADDED TO CLASSPATH}
+		/home/developer/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar[*]: {ADDED TO CLASSPATH}
+		/home/developer/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar[*]: {ADDED TO CLASSPATH}
+		/home/developer/.m2/repository/com/netflix/ribbon/ribbon-eureka/2.2.5/ribbon-eureka-2.2.5.jar[*]: {ADDED TO CLASSPATH}
+		/home/developer/.m2/repository/com/thoughtworks/xstream/xstream/1.4.10/xstream-1.4.10.jar[*]: {ADDED TO CLASSPATH}
+		/home/developer/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar[*]: {ADDED TO CLASSPATH}
+		/home/developer/.m2/repository/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar[*]: {ADDED TO CLASSPATH}
+		ResourceDelta(/zuul/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:51:08.258
+!MESSAGE Preparing classpath changed notification zuul
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:51:08.258
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:51:08.261
+!MESSAGE classpath=154 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:51:08.261
+!MESSAGE executing callback sts4.classpath.wUqHfSRl zuul false 154
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:51:08.277
+!MESSAGE executing callback sts4.classpath.wUqHfSRl SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:51:10.064
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul[*]: {CONTENT}
+		ResourceDelta(/zuul/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:51:14.238
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul[*]: {CHILDREN | CONTENT}
+		src/test/java[-]: {}
+		ResourceDelta(/zuul/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:51:14.437
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul[*]: {CONTENT}
+		ResourceDelta(/zuul/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:51:14.743
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul[*]: {CONTENT}
+		ResourceDelta(/zuul/.settings)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:51:23.490
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul[*]: {CONTENT}
+		ResourceDelta(/zuul/target/docker)[-]
+		ResourceDelta(/zuul/target/maven-archiver)[-]
+		ResourceDelta(/zuul/target/maven-status)[*]
+		ResourceDelta(/zuul/target/zuul-0.0.1-SNAPSHOT-docker-info.jar)[-]
+		ResourceDelta(/zuul/target/zuul-0.0.1-SNAPSHOT.jar)[-]
+		ResourceDelta(/zuul/target/zuul-0.0.1-SNAPSHOT.jar.original)[-]
+		ResourceDelta(/zuul/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:51:23.661
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul[*]: {CONTENT}
+		ResourceDelta(/zuul/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:51:31.522
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul[*]: {CONTENT}
+		ResourceDelta(/zuul/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:51:39.520
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul[*]: {CONTENT}
+		ResourceDelta(/zuul/target/docker)[+]
+		ResourceDelta(/zuul/target/zuul-0.0.1-SNAPSHOT-docker-info.jar)[+]
+		ResourceDelta(/zuul/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:53:44.110
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			eu.loxon.servicejava8b.controller[*]: {CHILDREN}
+				HelloBController.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:53:46.004
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			eu.loxon.zuul[*]: {CHILDREN}
+				ZuulApplication.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:53:49.840
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-a[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			eu.loxon.servicejava8a.controller[*]: {CHILDREN}
+				[Working copy] HelloAController.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/service-java8-a/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:53:50.608
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-a[*]: {CONTENT}
+		ResourceDelta(/service-java8-a/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:55:26.479
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-a[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			eu.loxon.servicejava8a.controller[*]: {CHILDREN}
+				[Working copy] HelloAController.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/service-java8-a/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:55:26.686
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-a[*]: {CONTENT}
+		ResourceDelta(/service-java8-a/target)[*]]
+
+!ENTRY org.eclipse.lsp4e 4 0 2018-10-10 15:56:54.000
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2022)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:168)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo(SpringBootJavaHoverProvider.java:35)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:173)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:57:03.206
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-a[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			eu.loxon.servicejava8a.controller[*]: {CHILDREN}
+				[Working copy] HelloAController.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/service-java8-a/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:57:03.411
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-a[*]: {CONTENT}
+		ResourceDelta(/service-java8-a/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:57:08.648
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			eu.loxon.servicejava8b.controller[*]: {CHILDREN}
+				[Working copy] HelloBController.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:57:11.153
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			eu.loxon.servicejava8b.controller[*]: {CHILDREN}
+				[Working copy] HelloBController.java[*]: {CHILDREN | FINE GRAINED | PRIMARY RESOURCE}
+					HelloBController[*]: {CHILDREN | FINE GRAINED}
+						hello()[*]: {ANNOTATIONS}
+							@GetMapping[*]: {CONTENT}
+		ResourceDelta(/service-java8-b/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:57:11.846
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CONTENT}
+		ResourceDelta(/service-java8-b/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:57:25.659
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CONTENT}
+		ResourceDelta(/service-java8-b/target/docker)[-]
+		ResourceDelta(/service-java8-b/target/maven-archiver)[*]
+		ResourceDelta(/service-java8-b/target/maven-status)[*]
+		ResourceDelta(/service-java8-b/target/service-java8-b-0.0.1-SNAPSHOT)[*]
+		ResourceDelta(/service-java8-b/target/service-java8-b-0.0.1-SNAPSHOT-docker-info.jar)[-]
+		ResourceDelta(/service-java8-b/target/service-java8-b-0.0.1-SNAPSHOT.war)[*]
+		ResourceDelta(/service-java8-b/target/service-java8-b-0.0.1-SNAPSHOT.war.original)[-]
+		ResourceDelta(/service-java8-b/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:57:25.845
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CONTENT}
+		ResourceDelta(/service-java8-b/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:57:33.607
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CONTENT}
+		ResourceDelta(/service-java8-b/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 15:57:41.662
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CONTENT}
+		ResourceDelta(/service-java8-b/target/docker)[+]
+		ResourceDelta(/service-java8-b/target/service-java8-b-0.0.1-SNAPSHOT-docker-info.jar)[+]
+		ResourceDelta(/service-java8-b/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 18:16:16.738
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-a[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			eu.loxon.servicejava8a.dto[+]: {}
+		ResourceDelta(/service-java8-a/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 18:16:16.881
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-a[*]: {CONTENT}
+		ResourceDelta(/service-java8-a/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 18:16:16.958
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-a[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			eu.loxon.servicejava8a.dto[*]: {CHILDREN}
+				[Working copy] HelloResponse.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 18:16:58.553
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=[Working copy] HelloResponse.java[*]: {CONTENT | FINE GRAINED}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 18:16:58.559
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-a[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			eu.loxon.servicejava8a.dto[*]: {CHILDREN}
+				[Working copy] HelloResponse.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/service-java8-a/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 18:16:59.361
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-a[*]: {CONTENT}
+		ResourceDelta(/service-java8-a/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 18:17:19.461
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-a[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			eu.loxon.servicejava8a.controller[*]: {CHILDREN}
+				[Working copy] HelloAController.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/service-java8-a/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 18:17:19.666
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-a[*]: {CONTENT}
+		ResourceDelta(/service-java8-a/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 18:17:57.790
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			eu.loxon.servicejava8b.dto[+]: {}
+		ResourceDelta(/service-java8-b/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 18:17:57.956
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CONTENT}
+		ResourceDelta(/service-java8-b/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 18:17:59.730
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			eu.loxon.servicejava8b.dto[*]: {CHILDREN}
+				HelloResponse.java[+]: {}
+		ResourceDelta(/service-java8-b/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 18:17:59.869
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CONTENT}
+		ResourceDelta(/service-java8-b/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 18:18:18.029
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			eu.loxon.servicejava8b.controller[*]: {CHILDREN}
+				[Working copy] HelloBController.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/service-java8-b/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 18:18:18.191
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CONTENT}
+		ResourceDelta(/service-java8-b/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 18:18:35.419
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CONTENT}
+		ResourceDelta(/service-java8-b/target/docker)[-]
+		ResourceDelta(/service-java8-b/target/maven-archiver)[-]
+		ResourceDelta(/service-java8-b/target/maven-status)[*]
+		ResourceDelta(/service-java8-b/target/service-java8-b-0.0.1-SNAPSHOT)[-]
+		ResourceDelta(/service-java8-b/target/service-java8-b-0.0.1-SNAPSHOT-docker-info.jar)[-]
+		ResourceDelta(/service-java8-b/target/service-java8-b-0.0.1-SNAPSHOT.war)[-]
+		ResourceDelta(/service-java8-b/target/service-java8-b-0.0.1-SNAPSHOT.war.original)[-]
+		ResourceDelta(/service-java8-b/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 18:18:35.577
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CONTENT}
+		ResourceDelta(/service-java8-b/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 18:18:43.384
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CONTENT}
+		ResourceDelta(/service-java8-b/target/maven-archiver)[+]
+		ResourceDelta(/service-java8-b/target/maven-status)[*]
+		ResourceDelta(/service-java8-b/target/service-java8-b-0.0.1-SNAPSHOT)[+]
+		ResourceDelta(/service-java8-b/target/service-java8-b-0.0.1-SNAPSHOT.war)[+]
+		ResourceDelta(/service-java8-b/target/service-java8-b-0.0.1-SNAPSHOT.war.original)[+]
+		ResourceDelta(/service-java8-b/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 18:18:43.582
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CONTENT}
+		ResourceDelta(/service-java8-b/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 18:18:59.531
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CONTENT}
+		ResourceDelta(/service-java8-b/target/docker)[+]
+		ResourceDelta(/service-java8-b/target/service-java8-b-0.0.1-SNAPSHOT-docker-info.jar)[+]
+		ResourceDelta(/service-java8-b/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 18:44:24.057
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-a[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			eu.loxon.servicejava8a.controller[*]: {CHILDREN}
+				HelloAController.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 18:44:24.072
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-a[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			eu.loxon.servicejava8a.dto[*]: {CHILDREN}
+				HelloResponse.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 18:44:24.092
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			eu.loxon.servicejava8b.controller[*]: {CHILDREN}
+				HelloBController.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 18:44:24.095
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.wUqHfSRl
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 18:44:24.095
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.wUqHfSRl
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 18:44:24.095
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 18:44:24.095
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.wUqHfSRl => OK
+!SESSION 2018-10-10 19:55:54.768 -----------------------------------------------
+eclipse.buildId=4.0.0.201809220817-RELEASE
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2018-10-10 19:56:07.008
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-10-10 19:56:07.008
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7c680fe1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@288b8663,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:12.125
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:16.599
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.tpAhpuhT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:16.609
+!MESSAGE subscribing to classpath changes: sts4.classpath.tpAhpuhT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:16.622
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:16.624
+!MESSAGE subsribers = [sts4.classpath.tpAhpuhT]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:16.626
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:17.740
+!MESSAGE project service-java8-b ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:17.749
+!MESSAGE project service-java8-a ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:17.759
+!MESSAGE project eureka ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:17.759
+!MESSAGE project zuul ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:17.759
+!MESSAGE Preparing classpath changed notification service-java8-b
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:17.760
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:17.760
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:17.761
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.tpAhpuhT => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:17.777
+!MESSAGE classpath=120 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:17.778
+!MESSAGE executing callback sts4.classpath.tpAhpuhT service-java8-b false 120
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:19.816
+!MESSAGE executing callback sts4.classpath.tpAhpuhT FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2018-10-10 19:56:19.816
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1886)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:179)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:19.822
+!MESSAGE Preparing classpath changed notification zuul
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:19.823
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:19.827
+!MESSAGE classpath=154 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:19.827
+!MESSAGE executing callback sts4.classpath.tpAhpuhT zuul false 154
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:21.840
+!MESSAGE executing callback sts4.classpath.tpAhpuhT FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2018-10-10 19:56:21.841
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1886)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:179)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:21.842
+!MESSAGE Preparing classpath changed notification eureka
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:21.842
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:21.847
+!MESSAGE classpath=151 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:21.847
+!MESSAGE executing callback sts4.classpath.tpAhpuhT eureka false 151
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:23.959
+!MESSAGE executing callback sts4.classpath.tpAhpuhT FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2018-10-10 19:56:23.959
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1886)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:179)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:23.960
+!MESSAGE Preparing classpath changed notification service-java8-a
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:23.960
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:23.964
+!MESSAGE classpath=153 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:23.964
+!MESSAGE executing callback sts4.classpath.tpAhpuhT service-java8-a false 153
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:25.980
+!MESSAGE executing callback sts4.classpath.tpAhpuhT FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2018-10-10 19:56:25.980
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1886)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:179)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:27.525
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	eureka[*]: {CONTENT}
+		ResourceDelta(/eureka/target)[*]
+	service-java8-a[*]: {CONTENT}
+		ResourceDelta(/service-java8-a/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:31.947
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	eureka[*]: {CONTENT}
+		ResourceDelta(/eureka/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:32.883
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CONTENT}
+		ResourceDelta(/service-java8-b/target)[*]]
+
+!ENTRY Activator 2 0 2018-10-10 19:56:33.675
+!MESSAGE List services command output has more than one line:
+ WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.springframework.cglib.core.ReflectUtils$1 (file:/home/developer/.m2/repository/org/springframework/spring-core/5.0.8.RELEASE/spring-core-5.0.8.RELEASE.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.springframework.cglib.core.ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+configserver dataflow eureka h2 hystrixdashboard kafka stubrunner zipkin
+
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:56:38.856
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	zuul[*]: {CONTENT}
+		ResourceDelta(/zuul/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 19:59:55.055
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-a[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			eu.loxon.servicejava8a.controller[*]: {CHILDREN}
+				[Working copy] HelloAController.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 20:00:04.706
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-a[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			eu.loxon.servicejava8a.controller[*]: {CHILDREN}
+				HelloAController.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 20:00:04.726
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	service-java8-b[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			eu.loxon.servicejava8b.controller[*]: {CHILDREN}
+				HelloBController.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 20:00:04.730
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.tpAhpuhT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 20:00:04.730
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.tpAhpuhT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 20:00:04.730
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 20:00:04.731
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.tpAhpuhT => OK
+
+!ENTRY org.eclipse.ui 2 2 2018-10-10 20:00:05.624
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.ui.projectPropertyPage (bundle: org.springframework.ide.eclipse.boot.validation, propertyPage: org.springframework.ide.eclipse.boot.validation.preferences.BootValidationProjectPropertyPage)

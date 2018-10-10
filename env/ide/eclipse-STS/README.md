@@ -13,7 +13,6 @@ docker create \
     -v $HOME/workspace:/home/developer/workspace \
     -v $HOME/workspace/meetup/.m2:/home/developer/.m2 \
     -v $HOME/.docker:/home/developer/.docker \
-    -v $HOME/workspace/meetup/dev-container/env/ide/eclipse-STS/resource/.sts-ws:/home/developer/.sts-ws \
     loxonsolutions/meetup-gui-sts:4
 
 docker start sts4

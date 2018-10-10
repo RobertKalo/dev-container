@@ -1,0 +1,11 @@
+version: "3.6"
+services:
+
+  service-b:
+    image: loxonsolutions/meetup-devops-service-java8-b:latest
+    networks:
+      - dev-net
+
+networks:
+  dev-net:
+    external: true

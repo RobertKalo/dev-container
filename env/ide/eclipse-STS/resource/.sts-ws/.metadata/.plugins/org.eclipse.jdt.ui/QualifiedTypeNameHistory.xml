@@ -6,4 +6,6 @@
     <fullyQualifiedTypeName name="org.springframework.cloud.netflix.eureka.server.EnableEurekaServer"/>
     <fullyQualifiedTypeName name="org.springframework.boot.web.servlet.support.SpringBootServletInitializer"/>
     <fullyQualifiedTypeName name="org.springframework.cloud.client.discovery.EnableDiscoveryClient"/>
+    <fullyQualifiedTypeName name="eu.loxon.servicejava8a.dto.HelloResponse"/>
+    <fullyQualifiedTypeName name="eu.loxon.servicejava8b.dto.HelloResponse"/>
 </qualifiedTypeNameHistroy>

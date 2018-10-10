@@ -15,15 +15,21 @@ export class AppComponent {
   constructor(private appService: AppServiceService) {}
 
   callServiceA() {
-    this.appService.getHelloFromServiceA().subscribe(data => this.serviceAResponse = data);
+    this.appService.getHelloFromServiceA().subscribe(data => this.serviceAResponse = data.msg);
   }
 
   callServiceB() {
-    this.appService.getHelloFromServiceB().subscribe(data => this.serviceBResponse = data);
+    this.appService.getHelloFromServiceB().subscribe(data => this.serviceBResponse = data.msg);
   }
 
   callServiceC() {
-    this.appService.getHelloFromServiceC().subscribe(data => this.serviceCResponse = data);
+    this.appService.getHelloFromServiceC().subscribe(data => this.serviceCResponse = data.msg);
+  }
+
+  clear() {
+    this.serviceAResponse = null;
+    this.serviceBResponse = null;
+    this.serviceCResponse = null;
   }
 
 }

@@ -1,0 +1,48 @@
+version: "3.6"
+services:
+
+  eureka:
+    image: loxonsolutions/meetup-devops-eureka:latest
+    networks:
+      - dev-net
+
+  zuul:
+    image: loxonsolutions/meetup-devops-zuul:latest
+    networks:
+      - dev-net
+
+  neo4j:
+    image: neo4j
+    environment: 
+      - NEO4J_AUTH=neo4j/hydra
+    networks:
+      - dev-net
+
+  elasticsearch:
+    image: elasticsearch:6.4.2
+    environment: 
+      - discovery.type=single-node
+    networks:
+      - dev-net
+
+  mongo:
+    image: mongo
+    networks:
+      - dev-net
+
+  visualizer:
+    image: dockersamples/visualizer:stable
+    ports:
+      - "9999:8080"
+    stop_grace_period: 1m30s
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+    deploy:
+      placement:
+        constraints: [node.role == manager]
+    networks:
+      - dev-net
+
+networks:
+  dev-net:
+    external: true

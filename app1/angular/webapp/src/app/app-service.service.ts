@@ -1,3 +1,4 @@
+import { HelloResponse } from './HelloResponse';
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
@@ -9,16 +10,16 @@ export class AppServiceService {
 
   constructor(private httpClient: HttpClient) { }
 
-  getHelloFromServiceA(): Observable<string> {
-    return this.httpClient.get<string>('/api/service-java8-a/hello');
+  getHelloFromServiceA(): Observable<HelloResponse> {
+    return this.httpClient.get<HelloResponse>('/api/service-java8-a/hello');
   }
 
-  getHelloFromServiceB(): Observable<string> {
-    return this.httpClient.get<string>('/api/service-java8-b/hello');
+  getHelloFromServiceB(): Observable<HelloResponse> {
+    return this.httpClient.get<HelloResponse>('/api/service-java8-b/hello');
   }
 
-  getHelloFromServiceC(): Observable<string> {
-    return this.httpClient.get<string>('/api-node/hello');
+  getHelloFromServiceC(): Observable<HelloResponse> {
+    return this.httpClient.get<HelloResponse>('/api-node/hello');
   }
 
 }

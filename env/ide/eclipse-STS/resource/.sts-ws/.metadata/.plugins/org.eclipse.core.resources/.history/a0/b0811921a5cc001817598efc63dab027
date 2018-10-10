@@ -1,0 +1,23 @@
+package eu.loxon.servicejava8a.controller;
+
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HelloAController {
+
+	@GetMapping("/api/hello")
+	public ResponseEntity<String> hello() throws UnknownHostException {
+		return ResponseEntity.ok("Hello, I'm the A service (host: " + InetAddress.getLocalHost().getHostName() + ")");
+	}
+
+	@GetMapping("/hello")
+	public ResponseEntity<String> hello2() throws UnknownHostException {
+		return ResponseEntity.ok("Hello2, I'm the A service (host: " + InetAddress.getLocalHost().getHostName() + ")");
+	}
+
+}
