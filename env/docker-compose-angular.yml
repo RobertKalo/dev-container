@@ -1,0 +1,16 @@
+version: "3.6"
+services:
+
+  angular:
+    image: loxonsolutions/meetup-node-runtime:latest
+    volumes:
+      - "$HOME/workspace/meetup/dev-container/app1/angular/webapp:/tmp/code"
+    deploy:
+      placement:
+        constraints: [node.role == manager]
+    networks:
+      - dev-net
+
+networks:
+  dev-net:
+    external: true
