@@ -17,18 +17,6 @@ services:
     networks:
       - dev-net
 
-  firefox:
-    image: loxonsolutions/meetup-gui-firefox:latest
-    environment: 
-      - DISPLAY=$DISPLAY
-    volumes:
-      - "/tmp/.X11-unix:/tmp/.X11-unix"
-    deploy:
-      placement:
-        constraints: [node.role == manager]
-    networks:
-      - dev-net
-
   angular:
     image: loxonsolutions/meetup-node-runtime:latest
     volumes:
